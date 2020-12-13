@@ -1,0 +1,9 @@
+.divcarousel{
+    height: 400px;
+}
+
+img{
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+}

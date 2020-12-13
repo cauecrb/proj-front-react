@@ -1,0 +1,14 @@
+.divslider3{
+    margin-top: 10px;
+    height: 400px;
+    background-color: rgba(48, 47, 47, 0.486);
+    display: flex;
+     justify-content: center;
+     margin-left: 5px;
+    margin-right: 5px;
+  }
+
+ .imgsld3{
+      height:180px;
+      width:90%;
+  }
