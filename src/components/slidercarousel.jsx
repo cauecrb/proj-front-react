@@ -40,14 +40,15 @@ export default class SimpleSlider extends Component {
 import React from 'react';
 import '../styles/caroussel.css';
 import Carousel from 'nuka-carousel';
-import imagem1 from "../images/imagemjupter.jpg";
-import imagem2 from "../images/imagemsaturno.jpg";
-import imagem3 from "../images/imagemterra.jpg";
+import imagem1 from "../images/foto1.jpg";
+import imagem2 from "../images/foto2.jpg";
+import imagem3 from "../images/foto3.jpg";
 
 export default class extends React.Component {
   render() {
     return (
       <div className="divcarousel">
+        
       <Carousel>
         <img src={imagem1} height="400" width="cover" background="cover"/>
         <img src={imagem2} height="400" background="cover"/>

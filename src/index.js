@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import './styles/footer.css';
 import './styles/caroussel.css';
+import './styles/accordion.css';
 import App from './App';
 import Slider from './components/slidercarousel.jsx';
 import Slider3 from './components/slider3.jsx';
@@ -15,12 +16,15 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <div className="centralizacao">
+    {/* <a href="#total-slider"> Lorem ipsum</a> */}
       <Slider />
       <Slider3 />
-      <Accordion/>
-      <Form />
       <ImgTxt />
-      <footer> roda pe</footer>
+    <div className="div-acc">
+      <Accordion/>
+      </div>
+      <Form />
+      <footer> LOREM IPSUM </footer>
     </div>
   </React.StrictMode>,
   document.getElementById('root')

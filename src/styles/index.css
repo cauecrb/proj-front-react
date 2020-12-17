@@ -21,8 +21,8 @@ body{
 }
 
 .centralizacao{
-/*   width: 80%;
- */
+  width: 1000px;
+
   background-color: gray;
   overflow: hidden;
 }

@@ -1,0 +1,16 @@
+.img-circ {
+    border-radius: 50%;
+    border: 5px solid rgba(37, 36, 36, 0.808);
+    
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 15px;
+}
+
+.txt-img{
+    background-color: rgba(48, 47, 47, 0.548);
+
+    display: flex;
+    color: white;
+}
